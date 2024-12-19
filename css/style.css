@@ -1,0 +1,112 @@
+/* Geral */
+body {
+    margin: 0; /* Remove margens padrão do body */
+    min-height: 100vh; /* Define a altura mínima da página */
+    position: relative; /* Para o posicionamento do rodapé */
+    padding: 0;
+}
+
+body, .dark-theme {
+    background-color: #2F3F64; /* Fundo azul escuro */
+    color: white;             /* Texto branco */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    background-color: #28385e;
+    padding: 20px;
+}
+.logoGrupo {
+    width: 16%;
+    height: 16%;
+}
+p {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+.conteiner-lista {
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    flex-grow: 1; 
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    height: 23.8px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f8f9fa; /* Fundo mais claro */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+td {
+    color: #333;
+}
+
+.btn-action {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-action:hover {
+    background-color: #0056b3;
+}
+
+.descricao {
+    white-space: pre-wrap; 
+    word-wrap: break-word;  
+    max-width: 200px;       
+    overflow-wrap: break-word; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: #ccc;
+    font-size: 0.9rem;
+}

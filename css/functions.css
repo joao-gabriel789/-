@@ -1,0 +1,126 @@
+/* Estilização geral */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2D3B5E; /* Cor de fundo */
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    text-align: center;     
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    min-width: 300px;
+}
+
+/* Logo */
+.logo img {
+    max-width: 200px; /* Tamanho da logo */
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #000000; /* Cor do texto */
+    min-width: 280px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Campos do formulário */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 94%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}   
+
+/* Botões */
+button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
+button[type="button"] {
+    background-color: #6C757D;
+    color: #ffffff;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.pfinalizacao {
+    margin-bottom: 0px;
+}
+
+/* Feedback */
+
+.feedback {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.success-message {
+    color: #4CAF50;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.error-message {
+    color: #FF0000;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.back-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}
